@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '?oak communityday') {
-    	message.reply('The next community day is Saturday, June 16th. View all the details in the {#community-day-06} channel.');
+    	message.reply('The next community day is Saturday, June 16th featuring Larvitar.');
   	}
 });
 
