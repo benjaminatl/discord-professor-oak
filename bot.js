@@ -1,15 +1,10 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const bot = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
+bot.on('message', (message) => {
+    if(message.content == 'Hey') {
+        message.channel.sendMessage('Hello, Trainer');
+    }
 });
 
-client.on('message', message => {
-    if (message.content === '?oak communityday') {
-    	message.reply('The next community day is Saturday, June 16th featuring Larvitar.');
-  	}
-});
-
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
