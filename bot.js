@@ -46,7 +46,6 @@ client.on("message", (message) => {
       text: "© Example"
     }
   }
-    
-});
+  
 
 client.login(process.env.BOT_TOKEN);
