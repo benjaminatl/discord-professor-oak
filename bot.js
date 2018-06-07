@@ -1,16 +1,23 @@
 const Discord = require("discord.js");
+const Enmap = require("enmap");
+const fs = require("fs");
+
 const client = new Discord.Client();
 const config = require("./config.json");
+// We also need to make sure we're attaching the config to the CLIENT so it's accessible everywhere!
+client.config = config;
 
-client.on("message", (message) => {
-  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+client.commands = new Enmap();
 
-  if (message.content.startsWith(config.prefix + "hey")) {
-    message.channel.send("Hello, Trainer");
-  } else
-  if (message.content.startsWith(config.prefix + "help")) {
-    message.channel.send("Hello Trainer, How can I help you?");
-  }
+fs.readdir("./commands/", (err, files) => {
+  if (err) return console.error(err);
+  files.forEach(file => {
+    if (!file.endsWith(".js")) return;
+    let props = require(`./commands/${file}`);
+    let commandName = file.split(".")[0];
+    console.log(`Attempting to load command ${commandName}`);
+    client.commands.set(commandName, props);
+  });
 });
 
 client.login(process.env.BOT_TOKEN);
