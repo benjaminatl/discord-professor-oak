@@ -1,4 +1,6 @@
 module.exports = (client, message) => {
+  console.log("Received message: " + message);
+  // Ignore all bots
   if (message.author.bot) return;
 
   if (message.content.indexOf(client.config.prefix) !== 0) return;
