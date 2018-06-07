@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-
-bot.registry.registerCommandsIn(__dirname + "/commands");
+const config = require("./config.json");
 
 bot.on('message', (message) => {
     if(message.content == 'Hey') {
