@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const config = require("./config.json");
 
 bot.on('message', (message) => {
-    if(message.content == 'Hey') {
+    if(message.content == (config.prefix + 'Hey')) {
         message.channel.sendMessage('Hello, Trainer');
     }
 });
