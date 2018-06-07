@@ -15,7 +15,13 @@ client.on("message", message => {
   } else
   if (command === 'blah') {
     message.channel.send('Meh.');
-  }
+  } else
+  if (command === 'test') {
+    message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
+  
 });
 
 client.login(process.env.BOT_TOKEN);
