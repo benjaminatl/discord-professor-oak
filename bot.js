@@ -14,6 +14,15 @@ client.on("message", (message) => {
   if (message.content.startsWith(config.prefix + "foo")) {
     message.channel.send("bar!");
   }
+  
+  else
+    
+  if (message.content.startsWith(config.prefix + "help")) { 
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "A very simple Embed!"
+    }});
+    
 });
 
 client.login(process.env.BOT_TOKEN);
