@@ -18,9 +18,9 @@ client.on("message", (message) => {
       icon_url: client.user.avatarURL
     },
     title: "Help Commands",
-    description: "Hello Trainer, Below is a list of commands I have learned through my research.",
+    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute any command, type the below commands in bold exactly how they appear.",
     fields: [{
-        name: "help",
+        name: "oak help",
         value: "Displays this message."
       },
       
