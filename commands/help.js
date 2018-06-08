@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute any command, type the below commands in bold exactly how they appear.",
+    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute any command, type any command below exactly how they appear.",
     fields: [{
         name: "!oak help",
         value: "Will display this message *(list of commands)*."
@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "© Professor Oak, Made By MrRecordHolder"
+      text: "© Professor Oak"
     }
   }
 });
