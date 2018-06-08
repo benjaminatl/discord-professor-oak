@@ -21,6 +21,10 @@ client.on("message", (message) => {
   }
   
   
+  // CLOSE OF CLIENT.ON  
+});
+  
+  
   
   // PURGE MESSAGES
   const user = message.mentions.users.first();
@@ -38,7 +42,6 @@ client.on("message", (message) => {
     });
   
 
-// CLOSE OF CLIENT.ON  
-});
+
   
 client.login(process.env.BOT_TOKEN);
