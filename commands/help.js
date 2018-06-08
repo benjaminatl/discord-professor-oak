@@ -10,8 +10,10 @@ exports.run = (client, message, args) => {
         name: "!oak help",
         value: "Will display this message *(list of commands)*."
       },
-      
-             
+      {
+        name: "!oak iv",
+        value: "Get information on what Pokemon IV's are and how to check them."
+      },             
     ],
     timestamp: new Date(),
     footer: {
