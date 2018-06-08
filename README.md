@@ -1,2 +1,2 @@
 # discord-professor-oak
-Created by: MrRecordHolder
+Version 1.0.0 || Created by: MrRecordHolder
