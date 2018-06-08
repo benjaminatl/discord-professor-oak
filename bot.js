@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
+const prefix = config.prefix
 
 client.on("message", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
