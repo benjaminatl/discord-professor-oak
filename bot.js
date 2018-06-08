@@ -6,31 +6,34 @@ client.on("message", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
 
-  
+// PURGE MESSAGES
   const user = message.mentions.users.first();
   const amount = !!parseInt(message.content.split(' ')[1]) ? parseInt(message.content.split(' ')[1]) : parseInt(message.content.split(' ')[2])
-  if (!amount) return message.reply('Must specify an amount to delete!');
-  if (!amount && !user) return message.reply('Must specify a user and amount, or just an amount, of messages to purge!');
-  message.channel.fetchMessages({
-  limit: amount,
-  }).then((messages) => {
-  if (user) {
+    if (!amount) return message.reply('Must specify an amount to delete!');
+    if (!amount && !user) return message.reply('Must specify a user and amount, or just an amount, of messages to purge!');
+      message.channel.fetchMessages({
+      limit: amount,
+      }).then((messages) => {
+   if (user) {
   const filterBy = user ? user.id : Client.user.id;
-  messages = messages.filter(m => m.author.id === filterBy).array().slice(0, amount);
+    messages = messages.filter(m => m.author.id === filterBy).array().slice(0, amount);
+    }
+    message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
+    });
+  
+  
+  
+// START OF ALL COMMANDS
+  
+  //help
+  if (message.content.startsWith(prefix + "help")) {
+    message.channel.send({embed: {
+    color: 3447003,
+    description: "A very simple Embed!"
+  }});
   }
-  message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
-  });
   
-  
-  
-  
-  const swearWords = ["darn", "shucks", "frak", "shite"];
-if( swearWords.some(word => message.content.includes(word)) ) {
-  message.reply("Oh no you said a bad word!!!");
-  // Or just do message.delete();
-}
-  
-  
+
 // CLOSE OF CLIENT.ON  
 });
   
