@@ -38,8 +38,7 @@ client.on("message", (message) => {
       icon_url: client.user.avatarURL,
       text: "© Example"
     }
-  }
-});else
+  } else
       
         // HELP
   if (message.content.startsWith(prefix + "one")) {
