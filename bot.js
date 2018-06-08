@@ -6,7 +6,23 @@ client.on("message", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
 
-// PURGE MESSAGES
+
+  
+  
+  
+// START OF ALL COMMANDS
+  
+  //help
+  if (message.content.startsWith(prefix + "help")) {
+    message.channel.send({embed: {
+    color: 3447003,
+    description: "A very simple Embed!"
+  }});
+  }
+  
+  
+  
+  // PURGE MESSAGES
   const user = message.mentions.users.first();
   const amount = !!parseInt(message.content.split(' ')[1]) ? parseInt(message.content.split(' ')[1]) : parseInt(message.content.split(' ')[2])
     if (!amount) return message.reply('Must specify an amount to delete!');
@@ -20,18 +36,6 @@ client.on("message", (message) => {
     }
     message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
     });
-  
-  
-  
-// START OF ALL COMMANDS
-  
-  //help
-  if (message.content.startsWith(prefix + "help")) {
-    message.channel.send({embed: {
-    color: 3447003,
-    description: "A very simple Embed!"
-  }});
-  }
   
 
 // CLOSE OF CLIENT.ON  
