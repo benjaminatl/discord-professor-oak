@@ -1,3 +1,9 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const config = require("./config.json");
+const prefix = config.prefix
+const fs = require("fs");
+
 client.on("message", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
     message.channel.send({embed: {
