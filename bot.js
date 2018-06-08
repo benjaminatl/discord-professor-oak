@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.on("message", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
-​
+
   if (message.content.startsWith(config.prefix + "ping")) {
     message.channel.send("pong!");
   } else
