@@ -9,8 +9,11 @@ client.on("message", (message) => {
     message.channel.send("pong!");
   } else
   if (message.content.startsWith(config.prefix + "foo")) {
-    message.channel.send("bar!");
-  }
+    message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
+  
 });
   
 client.login(process.env.BOT_TOKEN);
