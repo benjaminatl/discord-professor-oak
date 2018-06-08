@@ -1,37 +1,40 @@
-const fs = require('fs');
+// Require Packages
 const Discord = require('discord.js');
-const bot = new Discord.Client();
-const config = require("./config.json");
+const tools = require('./functions.js'); // This checks the root directory for this js file, where server.js is. 
 
-bot.commands = new Discord.Collection();
+// Configure Packages
+const client = new Discord.Client();
+const prefix = '!'; // You can set any prefix you like. 
 
-fs.readdir('./commands/', (err, files) => {  // This line of code reads all files from our "commands" folder
-  if(err) console.error(err); // If there is an error, send it to console.
-
-  let cmds = files.filter(f => f.split('.').pop() === 'js'); // This array will contain all files with 'js' extension
+// Listener Events
+client.on('message', message => { // This will run every time a message is recieved, sending it the message object.
   
-  if(cmds.lenght <= 0) { // If array contains less than, or exactly 0 objects, send message that there is no commands to load
-    return console.log('No command files found...');
+  // Variables
+  let msg = message.content.toUpperCase(); // This takes the message.content, and turns it all uppercase.
+  let sender = message.author; // This variable holds the message's author.
+  let args = message.content.slice(prefix.length).trim().split(' '); // This variable takes the message.content, slices off the prefix from the front, then trims the blank spaces on the side, and turns it into an array by separating it by spaces.
+  let cmd = args.shift().toLowerCase(); // This variable holds the first item from the args array, which is taken off of the args array and turned into lowercase.
+  
+  // Return Statements
+  if (!msg.startsWith(prefix)) return; // If the message doesn't start with the prefix, exit the code.
+  if (message.author.bot) return; // If the message's author is a bot, exit the code.
+  
+  // Command Handler
+  try { // This will run first, it will 'try' to run this code
+    
+    let commandFile = require(`./commands/${cmd}.js`); // This will create a requirement of the given file.
+    commandFile.run(client, message, args, tools); // This will attempt to run the file you just fetched. Now, we can add it to things to pass when running commands, so this means the functions.js file will automatically be added to the commands.
+    
+  } catch (e) { // This will run if it encounters an error, such as the command not being found.
+    
+    console.log(e.message); // This will log the error in console.
+    
+  } finally { // This will run after the try and/or the catch is run.
+    
+    console.log(`${message.author.tag} ran the command ${cmd}`); // This logs in console that a user ran a command.
+    
   }
 
-  console.log(`Loading ${files.lenght} commands...`); // Optional, prints how many commands we are loading
-
-  cmds.forEach((f, i) => { // Execute this code for every file from our array, f is files, and i stands for number
-    const command = require(`./commands/${f}`); // Require file with command
-    console.log(`${i + 1}: ${f} loaded!`); // When command is loaded, log it into console
-    bot.commands.set(command.help.name, command); // Push command name and file with it's code to our Collection
-  }); 
-});
-
-  const messageArray = message.content.split(/\s+/g); // Message split into separate objects for example message containing 'Hello there!' would look like this: ["Hello", "there!"]
-  const command = messageArray[0]; // Command with prefix
-  const args = messageArray.slice(1); // Arguments given to command
-  let cmd = bot.commands.get(command.slice(prefix.length)); // We need to get command from our collection
-
-  if(command.startsWith(prefix)){ // If command object starts with prefix
-    if(cmd) cmd.run(bot, message, args); // If cmd object isn't null, execute command code
-    console.log(`ExampleBOT: ${message.author.username}#${message.author.discriminator} used command '${command}' on ${message.guild.name}`); // We can log it to console
-  }
+})
   
-  
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
