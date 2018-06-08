@@ -32,8 +32,32 @@ client.on("message", (message) => {
     }
   }
 });
-  }
+  } else
   
+    // HELP
+  if (message.content.startsWith(prefix + "alolan")) {
+    message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "Help Commands",
+    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute any command, type the below commands in bold exactly how they appear.",
+    fields: [{
+        name: "oak help",
+        value: "Displays this message."
+      },
+      
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Professor Oak, Carrollton GA"
+    }
+  }
+});
+  } else
   
   // CLOSE OF CLIENT.ON  
 });
