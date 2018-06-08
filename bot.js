@@ -21,6 +21,17 @@ client.on("message", (message) => {
   message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
   });
   
+  
+  
+  
+  const swearWords = ["darn", "shucks", "frak", "shite"];
+if( swearWords.some(word => message.content.includes(word)) ) {
+  message.reply("Oh no you said a bad word!!!");
+  // Or just do message.delete();
+}
+  
+  
+// CLOSE OF CLIENT.ON  
 });
   
 client.login(process.env.BOT_TOKEN);
