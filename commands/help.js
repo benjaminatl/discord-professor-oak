@@ -1,4 +1,6 @@
-message.channel.send({embed: {
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+    message.channel.send({embed: {
     color: 3447003,
     author: {
       name: client.user.username,
