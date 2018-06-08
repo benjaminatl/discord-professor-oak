@@ -9,7 +9,7 @@ client.on("message", (message) => {
   
 // START OF ALL COMMANDS
   
-  //help
+  // HELP
   if (message.content.startsWith(prefix + "help")) {
     message.channel.send({embed: {
     color: 3447003,
@@ -22,6 +22,35 @@ client.on("message", (message) => {
     fields: [{
         name: "oak help",
         value: "Displays this message."
+      },
+      
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "© Professor Oak, Carrollton GA"
+    }
+  }
+});
+  }
+  
+  
+  
+   // ALOLAN
+  if (message.content.startsWith(prefix + "alolan")) {
+    message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "Alolan Kanto Pokemon",
+    description: "Hello Trainer! According to my research, the following Pokemon are from the Alolan Kanto region.",
+    fields: [{
+        name: "Rattata",
+      },
+      {
+        name: "Raticate",
       },
       
     ],
