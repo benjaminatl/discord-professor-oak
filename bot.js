@@ -21,4 +21,6 @@ client.on("message", (message) => {
   message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
   });
   
+});
+  
 client.login(process.env.BOT_TOKEN);
