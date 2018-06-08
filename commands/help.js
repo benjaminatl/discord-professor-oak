@@ -30,4 +30,4 @@ client.on("message", (message) => {
   }
 });
   
-})
+});
