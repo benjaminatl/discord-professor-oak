@@ -30,7 +30,7 @@ exports.run = (client, message, args) => {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "© Professor Oak"
+      text: "© Professor Oak, Info via [GOHub](https://pokemongohub.net/post/wiki/eevee-evolution-tricks/)"
     }
   }
 });
