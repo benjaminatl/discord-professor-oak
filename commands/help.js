@@ -15,6 +15,10 @@ exports.run = (client, message, args) => {
         value: "Get information on what Pokemon IV's are and how to check them."
       },
       {
+        name: "!oak eeveetrick",
+        value: "Discover how to evolve an Eevee into each eevolution use name and walking tricks."
+      },
+      {
         name: "!oak *gym* (replace *gym* with gym name, no spaces",
         value: "General information about a specific gym along with map directions."
       },
