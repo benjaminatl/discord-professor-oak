@@ -1,31 +1,51 @@
 exports.run = (client, message, args) => {
-const embed = new Discord.RichEmbed()
-  .setTitle("This is your title, it can hold 256 characters")
-  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
-  /*
-   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-   */
-  .setColor(0x00AE86)
-  .setDescription("This is the main body of text, it can hold 2048 characters.")
-  .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
-  .setImage("http://i.imgur.com/yVpymuV.png")
-  .setThumbnail("http://i.imgur.com/p2qNFag.png")
-  /*
-   * Takes a Date object, defaults to current date.
-   */
-  .setTimestamp()
-  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
-  .addField("This is a field title, it can hold 256 characters",
-    "This is a field value, it can hold 1024 characters.")
-  /*
-   * Inline fields may not display as inline if the thumbnail and/or image is too big.
-   */
-  .addField("Inline Field", "They can also be inline.", true)
-  /*
-   * Blank field, useful to create some space.
-   */
-  .addBlankField(true)
-  .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
-
-  message.channel.send({embed});
+{
+  "content": "this `supports` __a__ **subset** *of* ~~markdown~~ 😃 ```js\nfunction foo(bar) {\n  console.log(bar);\n}\n\nfoo(1);```",
+  "embed": {
+    "title": "title ~~(did you know you can have markdown here too?)~~",
+    "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
+    "url": "https://discordapp.com",
+    "color": 8286906,
+    "timestamp": "2018-06-09T02:02:16.204Z",
+    "footer": {
+      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "text": "footer text"
+    },
+    "thumbnail": {
+      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "image": {
+      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "author": {
+      "name": "author name",
+      "url": "https://discordapp.com",
+      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "fields": [
+      {
+        "name": "🤔",
+        "value": "some of these properties have certain limits..."
+      },
+      {
+        "name": "😱",
+        "value": "try exceeding some of them!"
+      },
+      {
+        "name": "🙄",
+        "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
+      },
+      {
+        "name": "<:thonkang:219069250692841473>",
+        "value": "these last two",
+        "inline": true
+      },
+      {
+        "name": "<:thonkang:219069250692841473>",
+        "value": "are inline fields",
+        "inline": true
+      }
+    ]
+  }
+}
 }
