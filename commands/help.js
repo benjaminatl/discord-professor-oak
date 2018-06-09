@@ -19,6 +19,10 @@ exports.run = (client, message, args) => {
         value: "Discover how to evolve an Eevee into each eevolution use name and walking tricks."
       },
       {
+        name: "!oak raidtimes",
+        value: "Returns when raids start spawn and when they despawn."
+      },
+      {
         name: "!oak googlemap",
         value: "A map created by our community that shows all Gyms, Ex Raid eligable Gyms, in-game parks and water spawn locations."
       },
