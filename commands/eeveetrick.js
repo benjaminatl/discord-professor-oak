@@ -5,26 +5,26 @@ exports.run = (client, message, args) => {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    description: "Hello Trainer, Similarly to the anime and main series games, there is a special method to evolve Eevee. The trick is to give Eevee a specific nickname before evolving it. **This can be used only once per each evolution so it is highly recommended that you thoroughly plan before doing so**. ",
+    description: "Hello Trainer, Similarly to the anime and main series games, there is a special method to evolve Eevee. The trick is to give Eevee a specific nickname *(or rename)* before evolving it. **This can be used only once per each evolution so it is highly recommended that you thoroughly plan before doing so**. ",
     fields: [{
-        name: "V",
-        value: "Will display this message *(list of commands)*."
+        name: "Vaporeon",
+        value: "Remane to *Rainer*"
       },
       {
-        name: "F",
-        value: "Get information on what Pokemon IV's are and how to check them."
+        name: "Jolteon",
+        value: "Remane to *Sparky*"
       },
       {
-        name: "J",
-        value: "General information about a specific gym along with map directions."
+        name: "Flareon",
+        value: "Remane to *Pyro*"
       },
       {
-        name: "U",
-        value: "General information about a specific gym along with map directions."
+        name: "Espeon",
+        value: "Remane to *Sakura*"
       },
       {
-        name: "5",
-        value: "General information about a specific gym along with map directions."
+        name: "Umbreon",
+        value: "Remane to *Tamao*"
       },
     ],
     timestamp: new Date(),
