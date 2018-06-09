@@ -20,11 +20,11 @@ exports.run = (client, message, args) => {
       },
       {
         name: "Espeon",
-        value: "Remane to *Sakura*"
+        value: "Remane to *Sakura*. You can also set Eevee as your buddy, earn 2 candy by walking 10KM and evolving during the day to receive this Pokemon."
       },
       {
         name: "Umbreon",
-        value: "Remane to *Tamao*"
+        value: "Remane to *Tamao*. You can also set Eevee as your buddy, earn 2 candy by walking 10KM and evolving during the night to receive this Pokemon."
       },
     ],
     timestamp: new Date(),
