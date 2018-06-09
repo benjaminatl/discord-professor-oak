@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute any command, type any command below exactly how they appear.",
+    description: "Hello Trainer, Below is a list of commands I have learned through my research. To execute, type any command below exactly how they appear.",
     fields: [{
         name: "!oak help",
         value: "Will display this message *(list of commands)*."
@@ -19,7 +19,7 @@ exports.run = (client, message, args) => {
         value: "Discover how to evolve an Eevee into each eevolution use name and walking tricks."
       },
       {
-        name: "!oak *gym* (replace *gym* with gym name, no spaces",
+        name: "!oak *gym* (replace *gym* with gym name, no spaces"),
         value: "General information about a specific gym along with map directions."
       },
     ],
