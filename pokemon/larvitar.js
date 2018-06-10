@@ -1,7 +1,7 @@
-
-    const Discord = require("discord.js");
+module.exports.run = (client, message, args) => {
+  const Discord = require("discord.js");
 const embed = new Discord.RichEmbed()
-module.exports.run = (<client>, <message>, <args>) => {
+
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
   
