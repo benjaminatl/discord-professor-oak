@@ -19,8 +19,12 @@ exports.run = (client, message, args) => {
         value: "Discover how to evolve an Eevee into each eevolution use name and walking tricks."
       },
       {
+        name: "!oak alolan",
+        value: "Displays all available Alolan forms of the Kanto region Pokemon."
+      },
+      {
         name: "!oak raidtimes",
-        value: "Returns when raids start spawn and when they despawn."
+        value: "Returns when raids start spawning and when they despawn."
       },
       {
         name: "!oak googlemap",
