@@ -1,0 +1,3 @@
+exports.run = (client, message, args) => {
+    message.channel.send("246&cp12,cp40,cp67,cp94,cp122,cp149,cp176,cp203,cp231,cp258,cp284,cp310,cp336,cp361,cp387,cp413,cp439,cp465,cp491,cp517,cp542,cp568,cp594,cp620,cp646,cp672,cp698,cp723,cp749,cp775,cp788,cp801,cp814,cp827,cp840,cp39,cp121,cp148,cp175,cp230,cp257,cp283,cp308,cp334,cp360,cp386,cp411,cp437,cp463,cp488,cp514,cp540,cp566,cp591,cp617,cp643,cp669,cp694,cp720,cp746,cp772,cp784,cp797,cp810,cp823,cp836,cp489,cp592,cp695,cp785,cp798").catch(console.error);
+}
