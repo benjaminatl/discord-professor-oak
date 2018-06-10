@@ -36,7 +36,7 @@ exports.run = (client, message, args) => {
       },
       {
         name: "!oak googlemap",
-        value: "A map created by our community that shows all Gyms, Ex Raid eligable Gyms, in-game parks and water spawn locations."
+        value: "A map created by our community that shows all Gyms, Ex Raid eligable Gyms, Pokestops, in-game parks and water spawn locations."
       },
       {
         name: "!oak *gym* (replace *gym* with gym name, no spaces)",
