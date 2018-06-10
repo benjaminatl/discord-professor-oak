@@ -9,7 +9,7 @@ const embed = new Discord.RichEmbed()
   .setDescription("This is the main body of text, it can hold 2048 characters.")
   .setFooter("© Professor Oak", "http://i.imgur.com/w1vhFSR.png")
   .setImage("http://i.imgur.com/yVpymuV.png")
-  .setThumbnail("http://i.imgur.com/p2qNFag.png")
+  .setThumbnail("https://rankedboost.com/wp-content/plugins/ice/pokemon-go/Larvitar-Pokemon-Go.png")
   
   .setTimestamp()
   .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
