@@ -9,33 +9,43 @@ exports.run = (client, message, args) => {
     description: "Hello Trainer! I see that you are interested in knowing more about the Alolan form Pokemon orignally discovered from the Kanto region.",
     fields: [{
         name: "Rattata, Raticate",
+        value: "Dark, Normal"
       },
       {
         name: "Raichu",
+        value: "Electric, Psychic"
       },
       {
         name: "Sandshre, Sandslash",
+        value: "Ice, Steel"
       },
       {
         name: "Vulpix, Ninetails",
+        value: "Ice, Fairy"
       },
       {
         name: "Diglett, Dugtrio",
+        value: "Ground, Steel"
       },
       {
         name: "Meowth, Persian",
+        value: "Dark"
       },
       {
         name: "Geodude, Graveler, Golem",
+        value: "Rock, Electric"
       },
       {
         name: "Grimer, Muk",
+        value: "Poison, Dark"
       },
       {
         name: "Exeggutor",
+        value: "Grass, Dragon"
       },
       {
         name: "Marowak",
+        value: "Fire, Ghost"
       },
              
     ],
