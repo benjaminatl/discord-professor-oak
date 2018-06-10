@@ -27,6 +27,10 @@ exports.run = (client, message, args) => {
         value: "Returns when raids start spawning and when they despawn."
       },
       {
+        name: "!oak nestatlas",
+        value: "This map shows traveling and local Trainers worldwide nests."
+      },
+      {
         name: "!oak googlemap",
         value: "A map created by our community that shows all Gyms, Ex Raid eligable Gyms, in-game parks and water spawn locations."
       },
