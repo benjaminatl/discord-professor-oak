@@ -1,31 +1,11 @@
-exports.run = (bot, message, Discord) => {
-  const embed = new Discord.RichEmbed()
-  .setTitle("This is your title, it can hold 256 characters")
-  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
-  /*
-   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-   */
-  .setColor(0x00AE86)
-  .setDescription("This is the main body of text, it can hold 2048 characters.")
-  .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
-  .setImage("http://i.imgur.com/yVpymuV.png")
-  .setThumbnail("http://i.imgur.com/p2qNFag.png")
-  /*
-   * Takes a Date object, defaults to current date.
-   */
-  .setTimestamp()
-  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
-  .addField("This is a field title, it can hold 256 characters",
-    "This is a field value, it can hold 2048 characters.")
-  /*
-   * Inline fields may not display as inline if the thumbnail and/or image is too big.
-   */
-  .addField("Inline Field", "They can also be inline.", true)
-  /*
-   * Blank field, useful to create some space.
-   */
-  .addBlankField(true)
-  .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
+// get the delete count, as an actual number.
+const deleteCount = parseInt(args[0], 10);
+    
+// Ooooh nice, combined conditions. <3
+if(!deleteCount || deleteCount < 2 || deleteCount > 100)
+  return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
 
-  message.channel.send({embed});
-  }
+// So we get our messages, and delete them. Simple enough, right?
+const fetched = await message.channel.fetchMessages({limit: deleteCount});
+message.channel.bulkDelete(fetched)
+  .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
