@@ -29,6 +29,12 @@ client.on("message", message => {
     commandFile.run(client, message, args);
   } catch (err) {
     console.error(err);
+  }else
+  try {
+    let commandFile = require(`./pokemon/${command}.js`);
+    commandFile.run(client, message, args);
+  } catch (err) {
+    console.error(err);
   }
 });
 
