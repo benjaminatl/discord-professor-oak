@@ -31,6 +31,10 @@ exports.run = (client, message, args) => {
         value: "This map shows traveling and local Trainers worldwide nests."
       },
       {
+        name: "!oak leaguemap",
+        value: "This map helps trainers connect with communities worldwide."
+      },
+      {
         name: "!oak googlemap",
         value: "A map created by our community that shows all Gyms, Ex Raid eligable Gyms, in-game parks and water spawn locations."
       },
