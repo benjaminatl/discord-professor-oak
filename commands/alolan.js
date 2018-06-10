@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
       icon_url: client.user.avatarURL
     },
     title: "Kanto Region, Alolan Forms",
-    description: "Hello Trainer! I see that you are interested in knowing more about the Alolan form Pokemon orignally discovered from the Kanto region.",
+    description: "Hello Trainer! I see that you are interested in knowing more about the Alolan form Pokemon orignally discovered from the Kanto region. Based on my research, I have discovered 18 Pokemon along with their types.",
     fields: [{
         name: "Rattata, Raticate",
         value: "Dark, Normal"
