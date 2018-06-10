@@ -1,4 +1,6 @@
-const Discord = require("discord.js");
+module.exports.run = (<client>, <message>, <args>) => {
+  
+  const Discord = require("discord.js");
 
 const embed = new Discord.RichEmbed()
   .setTitle("This is your title, it can hold 256 characters")
@@ -21,3 +23,5 @@ const embed = new Discord.RichEmbed()
   .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
 
   message.channel.send({embed});
+
+}
