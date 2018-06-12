@@ -3,16 +3,15 @@ module.exports.run = (client, message, args) => {
 const embed = new Discord.RichEmbed()
 
   .setTitle("Larvitar - #246")
-  .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
   
   .setColor(0x00AE86)
   .setDescription("Rock | Ground")
-  .setFooter("© Professor Oak", "http://i.imgur.com/w1vhFSR.png")
+  .setFooter("© Professor Oak", "client.user.avatarURL")
   .setThumbnail("https://rankedboost.com/wp-content/plugins/ice/pokemon-go/Larvitar-Pokemon-Go.png")
   
   .setTimestamp()
   .addField("Available Larvitar Commands",
-    "To uncover even more information about Larvitar, use the commands below.")
+    "Uncover even more information and hidden secrets about this Pokemon using the commands below. Remember Trainer, you must type the commands exactly as shown. *A Pokemon followed by a number within a command, refers to IV's. These commands return a quick search that can be entered into the in-game Pokemon search bar.*")
  
   .addField("!oak larvitar100", "100% IV", true)
   .addField("!oak larvitar98", "98%+ IV, 15 attack", true)
