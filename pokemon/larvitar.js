@@ -6,7 +6,7 @@ const embed = new Discord.RichEmbed()
   
   .setColor(0x00AE86)
   .setDescription("Rock | Ground")
-  .setFooter("© Professor Oak", "client.user.avatarURL")
+  .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-go.jpg?raw=true")
   .setThumbnail("https://rankedboost.com/wp-content/plugins/ice/pokemon-go/Larvitar-Pokemon-Go.png")
   
   .setTimestamp()
