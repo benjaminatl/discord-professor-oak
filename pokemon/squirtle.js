@@ -7,7 +7,7 @@ module.exports.run = (client, message, args) => {
     .setColor(0x00AE86)
     .setDescription("`Water` type")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
-    .setThumbnail("C:\Users\Benjamin\Desktop\discord-professor-oak\images\squirtle.png")
+    .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/squirtle.png")
     
     .setTimestamp()
     .addField("Extended Commands",
