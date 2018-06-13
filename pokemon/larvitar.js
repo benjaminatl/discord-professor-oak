@@ -5,7 +5,7 @@ const embed = new Discord.RichEmbed()
   .setTitle("Larvitar - #246")
   
   .setColor(0x00AE86)
-  .setDescription("Rock & Ground type, Hatchable from 10K eggs, Shiny form available (June16th).")
+  .setDescription("`Rock` and `Ground` type, hatachable from 10K eggs, Shiny form available June 16, 2018.")
   .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
   .setThumbnail("https://rankedboost.com/wp-content/plugins/ice/pokemon-go/Larvitar-Pokemon-Go.png")
   
