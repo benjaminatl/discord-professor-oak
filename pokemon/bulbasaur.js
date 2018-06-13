@@ -7,7 +7,7 @@ module.exports.run = (client, message, args) => {
     .setColor(0x00AE86)
     .setDescription("`Grass` type, Shiny form available.")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
-    .setThumbnail("https://rankedboost.com/wp-content/plugins/ice/pokemon-go/Larvitar-Pokemon-Go.png")
+    .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/bulbasaur.png?raw=true")
     
     .setTimestamp()
     .addField("Extended Commands",
