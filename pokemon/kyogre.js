@@ -7,7 +7,7 @@ module.exports.run = (client, message, args) => {
     .setColor(0x00AE86)
     .setDescription("`Water` `Electric` type, Shiny form available.")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
-    .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/bulbasaur.png?raw=true")
+    .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/kyogre.png?raw=true")
     
     .setTimestamp()
     .addField("Raid Boss Counters",
