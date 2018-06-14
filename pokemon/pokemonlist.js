@@ -1,3 +1,3 @@
 exports.run = (client, message, args) => {
-    message.channel.send("bulbasaur, charmander, squirtle, larvitar").catch(console.error);
+    message.channel.send("bulbasaur, charmander, squirtle, larvitar, kyogre").catch(console.error);
 }

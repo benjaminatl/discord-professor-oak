@@ -2,10 +2,10 @@ module.exports.run = (client, message, args) => {
     const Discord = require("discord.js");
   const embed = new Discord.RichEmbed()
   
-    .setTitle("Kyogre - #")
+    .setTitle("Kyogre - #382")
     
     .setColor(0x00AE86)
-    .setDescription("This Legendary Pokemon takes 5+ Trainers to defeat. Shiny form is available.")
+    .setDescription("This Legendary Pokemon takes 5+ Trainers to defeat. The shiny form is available.")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
     .setImage("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/kyogre-chart.jpg?raw=true")
     .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/kyogre.png?raw=true")
