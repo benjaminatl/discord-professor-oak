@@ -2,7 +2,7 @@ module.exports.run = (client, message, args) => {
     const Discord = require("discord.js");
   const embed = new Discord.RichEmbed()
   
-    .setTitle("Kyogre - #")
+    .setTitle("Kyogre - # <:waterbadge:>")
     
     .setColor(0x00AE86)
     .setDescription("`Water` `Electric` type, Shiny form available.")
