@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
       },
       {
         name: "!oak *pokemon* (replace *pokemon* with pokemon name)",
-        value: "Valuable information about a specific Pokemon, use `!oak pokemonlist` for available Pokemon.*"
+        value: "Valuable information about a specific Pokemon, use `!oak pokemonlist` for available Pokemon."
       },
       {
         name: "!oak eeveetrick",
