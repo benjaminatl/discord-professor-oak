@@ -2,7 +2,7 @@ module.exports.run = (client, message, args) => {
     const Discord = require("discord.js");
   const embed = new Discord.RichEmbed()
   
-    .setTitle("Kyogre - # <:waterbadge:>")
+    .setTitle("Kyogre - # <:waterbadge:434377739248730113>")
     
     .setColor(0x00AE86)
     .setDescription("`Water` `Electric` type, Shiny form available.")
@@ -14,6 +14,8 @@ module.exports.run = (client, message, args) => {
     .addField("Counter Type", "Grass", true)
     .addField("Level 20 Max CP", "2328", true)
     .addField("Level 25 Max CP", "2910", true)
+
+    .addBlankField(true)
 
     .setTimestamp()
     .addField("Raid Boss Counters",
