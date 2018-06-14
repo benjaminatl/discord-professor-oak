@@ -2,7 +2,7 @@ module.exports.run = (client, message, args) => {
     const Discord = require("discord.js");
   const embed = new Discord.RichEmbed()
   
-    .setTitle("Kyogre - # <:waterbadge:434377739248730113>")
+    .setTitle("Kyogre - #")
     
     .setColor(0x00AE86)
     .setDescription("`Water` `Electric` type, Shiny form available.")
@@ -10,8 +10,8 @@ module.exports.run = (client, message, args) => {
     .setImage("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/kyogre-chart.jpg?raw=true")
     .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/kyogre.png?raw=true")
     
-    .addField("Type", "Water & Electric", true)
-    .addField("Counter Type", "Grass", true)
+    .addField("Type", "<:waterbadge:434377739248730113> Electric", true)
+    .addField("Counter Type", "Grass & Electric", true)
     .addField("Level 20 Max CP", "2328", true)
     .addField("Level 25 Max CP", "2910", true)
 
