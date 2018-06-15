@@ -3,6 +3,8 @@ module.exports.run = (client, message, args) => {
 const embed = new Discord.RichEmbed()
 
   .setTitle("Larvitar - #246")
+
+  .addField("Egg", "10K", true)
   
   .setColor(0x00AE86)
   .setDescription("`Rock` and `Ground` type, hatachable from 10K eggs, Shiny form available June 16, 2018.")
@@ -15,9 +17,9 @@ const embed = new Discord.RichEmbed()
  
   .addField("!oak larvitar100", "100% IV", true)
   .addField("!oak larvitar98", "98%+ IV, 15 attack", true)
-  .addField("!oak larvitar96", "96%+ IV, 15 attack", true)
-  .addField("!oak larvitar93", "93%+ IV, 15 attack", true)
-  .addField("!oak larvitar91", "91%+ IV, 15 attack", true)
+  .addField("!oak larvitar96", "96%+ IV, 15 attack, 14+ HP", true)
+  .addField("!oak larvitar93", "93%+ IV, 15 attack, 14+ HP", true)
+  .addField("!oak larvitar91", "91%+ IV, 15 attack, 14+ HP", true)
   .addField("!oak larvitar0", "0% IV", true)
 
   message.channel.send({embed});
