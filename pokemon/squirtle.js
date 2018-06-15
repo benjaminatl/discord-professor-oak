@@ -3,6 +3,8 @@ module.exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
   
     .setTitle("Squirtle - #7")
+
+    .addField("Shiny", "No", true)
     
     .setColor(0x00AE86)
     .setDescription("`Water` type")

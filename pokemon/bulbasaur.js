@@ -3,9 +3,11 @@ module.exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
   
     .setTitle("Bulbasaur - #1")
+
+    .addField("Shiny", "Yes", true)
     
     .setColor(0x00AE86)
-    .setDescription("`Grass` type, Shiny form available.")
+    .setDescription("`Grass` type")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
     .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/bulbasaur.png?raw=true")
     

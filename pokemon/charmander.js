@@ -3,9 +3,11 @@ module.exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
   
     .setTitle("Charmander - #4")
+
+    .addField("Shiny", "Yes", true)
     
     .setColor(0x00AE86)
-    .setDescription("`Fire` type, Shiny form available.")
+    .setDescription("`Fire` type.")
     .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
     .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/charmander.png?raw=true")
     
