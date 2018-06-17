@@ -6,7 +6,7 @@ module.exports.run = (client, message, args) => {
     
     .setColor(0x00AE86)
     .setDescription("Exclusive Raid Pass to join a special Raid Battle. You can use this pass only at the specified limited-time event.")
-    .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-default.jpg?raw=true")
+    .setFooter("© Professor Oak", "https://github.com/benjaminatl/discord-professor-oak/blob/master/images/professor-oak-go.png?raw=true")
     .setThumbnail("https://github.com/benjaminatl/discord-professor-oak/blob/master/images/exraidpass.png?raw=true")
     
     .setTimestamp()
