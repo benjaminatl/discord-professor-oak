@@ -15,7 +15,7 @@ module.exports.run = (client, message, args) => {
     .addField("Level 20 Max CP", "2328", true)
     .addField("Level 25 Max CP", "2910", true)
     .addField("Shiny Available", "Yes", true)
-    .addField("Best Moveset", "Waterfall, Hydropump", true)
+    .addField("Best Moveset", "Waterfall, Hydro Pump", true)
 
     .setTimestamp()
     .addField("Raid Boss Counters",
