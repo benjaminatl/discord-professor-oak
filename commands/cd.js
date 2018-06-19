@@ -15,8 +15,6 @@ const embed = new Discord.RichEmbed()
   .addField("Exclusive Move", "?", true)
   .addField("Bonuses", "?")
 
-  .addBlankField(true)
-
   .addField("Local Meetup", "Meet with other local Trainers and gain new Friends by attending the Carrollton Pokemon GO Meet and Greet at the Art Center (Floral Bench Gym) from 12-2pm. For directions you can use the command `!oak artcenter`.")
 
   .setTimestamp()
