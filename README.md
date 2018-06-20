@@ -6,53 +6,53 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; Niantic Support Email<br>
 <code>!oak email</code><br><br>
 &bull; What Pokemon IV's are and how to check them<br>
-<i><code>!oak iv</code></i><br>
+<code>!oak iv</code><br>
 <br><br>
 <b><h2>Pokemon Commands</h2></b><br>
 &bull; Kyogre<br>
-<i><code>!oak kyogre</code></i><br>
+<code>!oak kyogre</code><br>
 <br><br>
 <b><h2>Carrollton Gym Commands</h2></b><br>
 &bull; Bankers Park<br>
-<i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
+<code>!oak bankerspark</code> or <code>!oak bankers</code><br><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
-<i><code>!oak buffalocreekoutdooreducation</code> or <code>!oak buffalocreek</code> or <code>!oak agcenter</code></i><br><br>
+<code>!oak buffalocreekoutdooreducation</code> or <code>!oak buffalocreek</code> or <code>!oak agcenter</code><br><br>
 &bull; Carrollton First Baptist<br>
-<i><code>!oak carrolltonfirstbaptist</code> or <code>!oak firstbaptist</code></i><br><br>
+<code>!oak carrolltonfirstbaptist</code> or <code>!oak firstbaptist</code><br><br>
 &bull; Carrollton Giant Cross<br>
-<i><code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code></i><br><br>
+<code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code><br><br>
 &bull; Carrollton Post Office<br>
-<i><code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code></i><br><br>
+<code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code><br><br>
 &bull; Carrollton Presbyterian Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Castle Playground<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Cole Memorial<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Concord Primitive Baptist Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Divine Glory Ministries<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Dorks Textbooks<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Dr Spence<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; East Commons Library<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Fellowship Baptist Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; First "REA" Substation in Carrollton<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Floral Bench<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Fomby<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Freedom Fellowship Ministries<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Garden Of Christus<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Green Belt Gazebo<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Hays Mill Park<br>
 <i><code>!oak </code></i><br><br>
 &bull; Hope Fellowship Church<br>
