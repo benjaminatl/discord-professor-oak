@@ -12,7 +12,7 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; Kyogre<br>
 <i><code>!oak kyogre</code></i><br>
 <br><br>
-<b><h2>Local Gym Commands</h2></b><br>
+<b><h2>Carrollton Gym Commands</h2></b><br>
 &bull; Bankers Park<br>
 <i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
