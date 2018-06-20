@@ -2,7 +2,7 @@
 <h6>version 1.1.0</h6><br>
 A Discord Bot that helps local and traveling Trainers alike within a specific community. Quick and easy commands help Trainers get the information or directions they need fast.
 <br><br>
-<b>Information Commands</b><br>
+<b><h2>Information Commands</h2></b><br>
 &bull; Niantic Support Email<br>
 <i><code>!oak email</code></i><br>
 &bull; What Pokemon IV's are and how to check them<br>
