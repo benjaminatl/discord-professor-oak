@@ -5,10 +5,10 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 - Kyogre<br>
 <br>
 <b>Available Gyms</b><br>
-- Bankers Park:<br>
+&bull; Bankers Park:<br>
 <i>!oak bankerspark or !oak bankers</i><br>
 - Buffalo Creek Outdoor Education Center<br>
-<i>!oak buffalocreekoutdooreducation or !oak buffalocreek or !oak agcenter</i>
+<i>!oak buffalocreekoutdooreducation or !oak buffalocreek or !oak agcenter</i><br>
 - Carrollton First Baptist<br>
 - Carrollton Giant Cross<br>
 - Carrollton Post Office<br>
