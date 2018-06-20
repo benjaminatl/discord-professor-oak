@@ -1,5 +1,7 @@
-# discord-professor-oak
-Version 1.1.0 || Created by: MrRecordHolder<br>
+<b>Professor Oak Version 1.1.0</b>
+A Discord Bot that helps local and traveling Trainers alike within a specific community. Quick and easy commands help Trainers get the information or directions they need fast.
+<br>
+Created by: MrRecordHolder<br>
 <br>
 <b>Available Pokemon</b><br>
 &bull; Kyogre<br>
