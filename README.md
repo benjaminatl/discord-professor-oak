@@ -1,2 +1,5 @@
 # discord-professor-oak
-Version 1.0.2 || Created by: MrRecordHolder
+Version 1.1.0 || Created by: MrRecordHolder<br>
+<br>
+<b>Available Pokemon</b><br>
+- Kyogre
