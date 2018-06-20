@@ -13,7 +13,7 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 &bull; Carrollton First Baptist<br>
 &bull; Carrollton Giant Cross<br>
 <i><code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code></i><br>
-- Carrollton Post Office<br>
+&bull; Carrollton Post Office<br>
 <i><code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code></i><br>
 - Carrollton Presbyterian Church<br>
 - Castle Playground<br>
