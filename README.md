@@ -24,21 +24,21 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; Carrollton Post Office<br>
 <code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code><br><br>
 &bull; Carrollton Presbyterian Church<br>
-<code>!oak </code><br><br>
+<code>!oak carrolltonpresbyterianchurch</code> or <code>!oak presbyterianchurch</code><br><br>
 &bull; Castle Playground<br>
-<code>!oak </code><br><br>
+<code>!oak castleplayground</code><br><br>
 &bull; Cole Memorial<br>
-<code>!oak </code><br><br>
+<code>!oak colememorial</code><br><br>
 &bull; Concord Primitive Baptist Church<br>
-<code>!oak </code><br><br>
+<code>!oak concordprimitivebaptistchurch</code><br><br>
 &bull; Divine Glory Ministries<br>
-<code>!oak </code><br><br>
+<code>!oak divinegloryministires</code> or <code>!oak divine</code><br><br>
 &bull; Dorks Textbooks<br>
-<code>!oak </code><br><br>
+<code>!oak dorkstextbooks</code> or <code>!oak dorks</code><br><br>
 &bull; Dr Spence<br>
-<code>!oak </code><br><br>
+<code>!oak drspense</code><br><br>
 &bull; East Commons Library<br>
-<code>!oak </code><br><br>
+<code>!oak eastcommonslibrary</code> or <code>!oak eastcommons</code><br><br>
 &bull; Fellowship Baptist Church<br>
 <code>!oak </code><br><br>
 &bull; First "REA" Substation in Carrollton<br>
