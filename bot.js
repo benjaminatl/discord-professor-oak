@@ -4,6 +4,8 @@ const config = require("./config.json");
 const prefix = config.prefix
 const fs = require("fs");
 
+bot.user.setGame('Version 1.1.0')
+
 
 
 client.on("message", message => {
