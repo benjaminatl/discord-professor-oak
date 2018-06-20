@@ -8,11 +8,11 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; What Pokemon IV's are and how to check them<br>
 <i><code>!oak iv</code></i><br>
 <br><br>
-<b>Pokemon Commands</b><br>
+<b><h2>Pokemon Commands</h2></b><br>
 &bull; Kyogre<br>
 <i><code>!oak kyogre</code></i><br>
 <br><br>
-<b>Gym Commands</b><br>
+<b><h2>Local Gym Commands</h2></b><br>
 &bull; Bankers Park<br>
 <i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
