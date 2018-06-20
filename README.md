@@ -1,8 +1,8 @@
 <b>Professor Oak Version 1.1.0</b><br>
 A Discord Bot that helps local and traveling Trainers alike within a specific community. Quick and easy commands help Trainers get the information or directions they need fast.
 <br><br>
-<b>Information Commands</b>
-&bull; Niantic Support Email
+<b>Information Commands</b><br>
+&bull; Niantic Support Email<br>
 <i><code>!oak email</code></i><br>
 &bull; What Pokemon IV's are and how to check them
 <i><code>!oak iv</code></i><br>
