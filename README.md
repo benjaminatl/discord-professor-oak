@@ -1,11 +1,12 @@
 # discord-professor-oak
 Version 1.1.0 || Created by: MrRecordHolder<br>
 <br>
-<b>Pokemon Commands</b><br>
+<b>Available Pokemon</b><br>
 - Kyogre<br>
 <br>
-<b>Gym Commands</b><br>
-- Bankers Park<br>
+<b>Available Gyms</b><br>
+- Bankers Park: !oak bankerspark or !oak bankers
+<br>
 - Buffalo Creek Outdoor Education Center<br>
 - Carrollton First Baptist<br>
 - Carrollton Giant Cross<br>
@@ -14,38 +15,38 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 - Castle Playground<br>
 - Cole Memorial<br>
 - Concord Primitive Baptist Church<br>
-- Divine Glory Ministries
-- Dorks Textbooks
-- Dr Spence
-- East Commons Library
-- Fellowship Baptist Church
-- First "REA" Substation in Carrollton
-- Floral Bench
-- Fomby
-- Freedom Fellowship Ministries
-- Garden Of Christus
-- Green Belt Gazebo
-- Hays Mill Park
-- Hope Fellowship Church
-- Howl
-- Iglesia Cristiana
-- Knox Park
-- Lake Carroll Arch
-- Oak Grove Baptist Church
-- Oil Park
-- Recreation Center Park
-- Safari Park
-- Shay Hill Park Gazebo
-- Spirit Wolf
-- St. Matthew at the Lake
-- Stripling Chapel
-- Tanner Medical Center Med Library
-- The Observatory At The University Of West Georgia
-- The Other Flower Table
-- Trojan Stadium
-- Universal Faith Deliverance Church
-- Veterans Magnolia Memorial
-- Welcome Hill Baptist Church
-- West Georgia Tech
-- Wolf Plaza
-- World Of Life Church
+- Divine Glory Ministries<br>
+- Dorks Textbooks<br>
+- Dr Spence<br>
+- East Commons Library<br>
+- Fellowship Baptist Church<br>
+- First "REA" Substation in Carrollton<br>
+- Floral Bench<br>
+- Fomby<br>
+- Freedom Fellowship Ministries<br>
+- Garden Of Christus<br>
+- Green Belt Gazebo<br>
+- Hays Mill Park<br>
+- Hope Fellowship Church<br>
+- Howl<br>
+- Iglesia Cristiana<br>
+- Knox Park<br>
+- Lake Carroll Arch<br>
+- Oak Grove Baptist Church<br>
+- Oil Park<br>
+- Recreation Center Park<br>
+- Safari Park<br>
+- Shay Hill Park Gazebo<br>
+- Spirit Wolf<br>
+- St. Matthew at the Lake<br>
+- Stripling Chapel<br>
+- Tanner Medical Center Med Library<br>
+- The Observatory At The University Of West Georgia<br>
+- The Other Flower Table<br>
+- Trojan Stadium<br>
+- Universal Faith Deliverance Church<br>
+- Veterans Magnolia Memorial<br>
+- Welcome Hill Baptist Church<br>
+- West Georgia Tech<br>
+- Wolf Plaza<br>
+- World Of Life Church<br>
