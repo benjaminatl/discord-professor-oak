@@ -11,7 +11,7 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 <b>Pokemon Commands</b><br>
 &bull; Kyogre<br>
 <i><code>!oak kyogre</code></i><br>
-<br>
+<br><br>
 <b>Gym Commands</b><br>
 &bull; Bankers Park<br>
 <i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
