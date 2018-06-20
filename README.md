@@ -1,11 +1,17 @@
 <b>Professor Oak Version 1.1.0</b><br>
 A Discord Bot that helps local and traveling Trainers alike within a specific community. Quick and easy commands help Trainers get the information or directions they need fast.
 <br><br>
-<b>Available Pokemon</b><br>
+<b>Information Commands</b>
+&bull; Niantic Support Email
+<i><code>!oak email</code></i><br>
+&bull; What Pokemon IV's are and how to check them
+<i><code>!oak iv</code></i><br>
+<br><br>
+<b>Pokemon Commands</b><br>
 &bull; Kyogre<br>
 <i><code>!oak kyogre</code></i><br>
 <br>
-<b>Available Gyms</b><br>
+<b>Gym Commands</b><br>
 &bull; Bankers Park<br>
 <i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
