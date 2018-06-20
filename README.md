@@ -4,7 +4,7 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 <br><br>
 <b><h2>Information Commands</h2></b><br>
 &bull; Niantic Support Email<br>
-<i><code>!oak email</code></i><br><br>
+<code>!oak email</code><br><br>
 &bull; What Pokemon IV's are and how to check them<br>
 <i><code>!oak iv</code></i><br>
 <br><br>
