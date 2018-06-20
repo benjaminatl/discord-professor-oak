@@ -54,50 +54,50 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; Green Belt Gazebo<br>
 <code>!oak </code><br><br>
 &bull; Hays Mill Park<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Hope Fellowship Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Howl<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Iglesia Cristiana<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Knox Park<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Lake Carroll Arch<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Oak Grove Baptist Church<br>
 <i><code>!oak </code></i><br><br>
 &bull; Oil Park<br>
 <i><code>!oak </code></i><br><br>
 &bull; Recreation Center Park<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Safari Park<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Shay Hill Park Gazebo<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Spirit Wolf<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; St. Matthew at the Lake<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Stripling Chapel<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Tanner Medical Center Med Library<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; The Observatory At The University Of West Georgia<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; The Other Flower Table<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Trojan Stadium<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Universal Faith Deliverance Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Veterans Magnolia Memorial<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Welcome Hill Baptist Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; West Georgia Tech<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Wolf Plaza<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; World Of Life Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
