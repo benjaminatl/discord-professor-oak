@@ -66,9 +66,9 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; Lake Carroll Arch<br>
 <code>!oak </code><br><br>
 &bull; Oak Grove Baptist Church<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Oil Park<br>
-<i><code>!oak </code></i><br><br>
+<code>!oak </code><br><br>
 &bull; Recreation Center Park<br>
 <code>!oak </code><br><br>
 &bull; Safari Park<br>
