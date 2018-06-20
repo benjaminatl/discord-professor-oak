@@ -6,7 +6,7 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 <br>
 <b>Available Gyms</b><br>
 - Bankers Park:<br>
-<i font style="2">!oak bankerspark or !oak bankers</i font><br>
+<i>!oak bankerspark or !oak bankers</i><br>
 - Buffalo Creek Outdoor Education Center<br>
 - Carrollton First Baptist<br>
 - Carrollton Giant Cross<br>
