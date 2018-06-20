@@ -11,6 +11,7 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 &bull; Buffalo Creek Outdoor Education Center<br>
 <i><code>!oak buffalocreekoutdooreducation</code> or <code>!oak buffalocreek</code> or <code>!oak agcenter</code></i><br>
 &bull; Carrollton First Baptist<br>
+<i><code>!oak carrolltonfirstbaptist</code> or <code>!oak firstbaptist</code></i><br>
 &bull; Carrollton Giant Cross<br>
 <i><code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code></i><br>
 &bull; Carrollton Post Office<br>
