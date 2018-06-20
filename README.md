@@ -6,9 +6,9 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 <br>
 <b>Available Gyms</b><br>
 &bull; Bankers Park:<br>
-<i><code>!oak bankerspark</code> or !oak bankers</i><br>
+<i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
-<i>!oak buffalocreekoutdooreducation or !oak buffalocreek or !oak agcenter</i><br>
+<i><code>!oak buffalocreekoutdooreducation</code> or <code>!oak buffalocreek</code> or <code>!oak agcenter</code></i><br>
 &bull; Carrollton First Baptist<br>
 - Carrollton Giant Cross<br>
 - Carrollton Post Office<br>
