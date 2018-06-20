@@ -9,7 +9,7 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 <i>!oak bankerspark or !oak bankers</i><br>
 - Buffalo Creek Outdoor Education Center<br>
 <i>!oak buffalocreekoutdooreducation or !oak buffalocreek or !oak agcenter</i><br>
-- Carrollton First Baptist<br>
+&bull; Carrollton First Baptist<br>
 - Carrollton Giant Cross<br>
 - Carrollton Post Office<br>
 - Carrollton Presbyterian Church<br>
