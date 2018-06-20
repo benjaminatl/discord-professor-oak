@@ -4,8 +4,7 @@ const config = require("./config.json");
 const prefix = config.prefix
 const fs = require("fs");
 
-client.user.setGame('Version 1.1.0')
-
+client.setPlayingGame("Pokemon GO");
 
 
 client.on("message", message => {
