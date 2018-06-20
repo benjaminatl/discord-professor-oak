@@ -4,7 +4,6 @@ const config = require("./config.json");
 const prefix = config.prefix
 const fs = require("fs");
 
-client.user.setStatus("Pokemon GO")
 
 client.on("message", message => {
   if (message.author.bot) return;
