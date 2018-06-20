@@ -16,42 +16,81 @@ Version 1.1.0 || Created by: MrRecordHolder<br>
 <i><code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code></i><br>
 &bull; Carrollton Post Office<br>
 <i><code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code></i><br>
-- Carrollton Presbyterian Church<br>
-- Castle Playground<br>
-- Cole Memorial<br>
-- Concord Primitive Baptist Church<br>
-- Divine Glory Ministries<br>
-- Dorks Textbooks<br>
-- Dr Spence<br>
-- East Commons Library<br>
-- Fellowship Baptist Church<br>
-- First "REA" Substation in Carrollton<br>
-- Floral Bench<br>
-- Fomby<br>
-- Freedom Fellowship Ministries<br>
-- Garden Of Christus<br>
-- Green Belt Gazebo<br>
-- Hays Mill Park<br>
-- Hope Fellowship Church<br>
-- Howl<br>
-- Iglesia Cristiana<br>
-- Knox Park<br>
-- Lake Carroll Arch<br>
-- Oak Grove Baptist Church<br>
-- Oil Park<br>
-- Recreation Center Park<br>
-- Safari Park<br>
-- Shay Hill Park Gazebo<br>
-- Spirit Wolf<br>
-- St. Matthew at the Lake<br>
-- Stripling Chapel<br>
-- Tanner Medical Center Med Library<br>
-- The Observatory At The University Of West Georgia<br>
-- The Other Flower Table<br>
-- Trojan Stadium<br>
-- Universal Faith Deliverance Church<br>
-- Veterans Magnolia Memorial<br>
-- Welcome Hill Baptist Church<br>
-- West Georgia Tech<br>
-- Wolf Plaza<br>
-- World Of Life Church<br>
+&bull; Carrollton Presbyterian Church<br>
+<i><code>!oak </code></i><br>
+&bull; Castle Playground<br>
+<i><code>!oak </code></i><br>
+&bull; Cole Memorial<br>
+<i><code>!oak </code></i><br>
+&bull; Concord Primitive Baptist Church<br>
+<i><code>!oak </code></i><br>
+&bull; Divine Glory Ministries<br>
+<i><code>!oak </code></i><br>
+&bull; Dorks Textbooks<br>
+<i><code>!oak </code></i><br>
+&bull; Dr Spence<br>
+<i><code>!oak </code></i><br>
+&bull; East Commons Library<br>
+<i><code>!oak </code></i><br>
+&bull; Fellowship Baptist Church<br>
+<i><code>!oak </code></i><br>
+&bull; First "REA" Substation in Carrollton<br>
+<i><code>!oak </code></i><br>
+&bull; Floral Bench<br>
+<i><code>!oak </code></i><br>
+&bull; Fomby<br>
+<i><code>!oak </code></i><br>
+&bull; Freedom Fellowship Ministries<br>
+<i><code>!oak </code></i><br>
+&bull; Garden Of Christus<br>
+<i><code>!oak </code></i><br>
+&bull; Green Belt Gazebo<br>
+<i><code>!oak </code></i><br>
+&bull; Hays Mill Park<br>
+<i><code>!oak </code></i><br>
+&bull; Hope Fellowship Church<br>
+<i><code>!oak </code></i><br>
+&bull; Howl<br>
+<i><code>!oak </code></i><br>
+&bull; Iglesia Cristiana<br>
+<i><code>!oak </code></i><br>
+&bull; Knox Park<br>
+<i><code>!oak </code></i><br>
+&bull; Lake Carroll Arch<br>
+<i><code>!oak </code></i><br>
+&bull; Oak Grove Baptist Church<br>
+<i><code>!oak </code></i><br>
+&bull; Oil Park<br>
+<i><code>!oak </code></i><br>
+&bull; Recreation Center Park<br>
+<i><code>!oak </code></i><br>
+&bull; Safari Park<br>
+<i><code>!oak </code></i><br>
+&bull; Shay Hill Park Gazebo<br>
+<i><code>!oak </code></i><br>
+&bull; Spirit Wolf<br>
+<i><code>!oak </code></i><br>
+&bull; St. Matthew at the Lake<br>
+<i><code>!oak </code></i><br>
+&bull; Stripling Chapel<br>
+<i><code>!oak </code></i><br>
+&bull; Tanner Medical Center Med Library<br>
+<i><code>!oak </code></i><br>
+&bull; The Observatory At The University Of West Georgia<br>
+<i><code>!oak </code></i><br>
+&bull; The Other Flower Table<br>
+<i><code>!oak </code></i><br>
+&bull; Trojan Stadium<br>
+<i><code>!oak </code></i><br>
+&bull; Universal Faith Deliverance Church<br>
+<i><code>!oak </code></i><br>
+&bull; Veterans Magnolia Memorial<br>
+<i><code>!oak </code></i><br>
+&bull; Welcome Hill Baptist Church<br>
+<i><code>!oak </code></i><br>
+&bull; West Georgia Tech<br>
+<i><code>!oak </code></i><br>
+&bull; Wolf Plaza<br>
+<i><code>!oak </code></i><br>
+&bull; World Of Life Church<br>
+<i><code>!oak </code></i><br>
