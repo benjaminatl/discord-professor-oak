@@ -2,16 +2,19 @@
 Version 1.1.0 || Created by: MrRecordHolder<br>
 <br>
 <b>Available Pokemon</b><br>
-- Kyogre<br>
+&bull; Kyogre<br>
+<i><code>!oak kyogre</code></i><br>
 <br>
 <b>Available Gyms</b><br>
-&bull; Bankers Park:<br>
+&bull; Bankers Park<br>
 <i><code>!oak bankerspark</code> or <code>!oak bankers</code></i><br>
 &bull; Buffalo Creek Outdoor Education Center<br>
 <i><code>!oak buffalocreekoutdooreducation</code> or <code>!oak buffalocreek</code> or <code>!oak agcenter</code></i><br>
 &bull; Carrollton First Baptist<br>
-- Carrollton Giant Cross<br>
+&bull; Carrollton Giant Cross<br>
+<i><code>!oak carrolltongiantcross</code> or <code>!oak giantcross</code></i><br>
 - Carrollton Post Office<br>
+<i><code>!oak carrolltonpostoffice</code> or <code>!oak postoffice</code></i><br>
 - Carrollton Presbyterian Church<br>
 - Castle Playground<br>
 - Cole Memorial<br>
