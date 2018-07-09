@@ -40,64 +40,64 @@ A Discord Bot that helps local and traveling Trainers alike within a specific co
 &bull; East Commons Library<br>
 <code>!oak eastcommonslibrary</code> or <code>!oak eastcommons</code><br><br>
 &bull; Fellowship Baptist Church<br>
-<code>!oak </code><br><br>
+<code>!oak fellowshipbaptistchurch</code><br><br>
 &bull; First "REA" Substation in Carrollton<br>
-<code>!oak </code><br><br>
+<code>!oak rea</code><br><br>
 &bull; Floral Bench<br>
-<code>!oak </code><br><br>
+<code>!oak floralbench</code> or <code>!oak artcenter</code><br><br>
 &bull; Fomby<br>
-<code>!oak </code><br><br>
+<code>!oak fomby</code><br><br>
 &bull; Freedom Fellowship Ministries<br>
-<code>!oak </code><br><br>
+<code>!oak freedomfellowshipministries</code><br><br>
 &bull; Garden Of Christus<br>
-<code>!oak </code><br><br>
+<code>!oak gardenofchristus</code><br><br>
 &bull; Green Belt Gazebo<br>
-<code>!oak </code><br><br>
+<code>!oak greenbelgazebo</code><br><br>
 &bull; Hays Mill Park<br>
-<code>!oak </code><br><br>
+<code>!oak hallsmillpark</code><br><br>
 &bull; Hope Fellowship Church<br>
-<code>!oak </code><br><br>
+<code>!oak hopefellowshipchurch</code><br><br>
 &bull; Howl<br>
-<code>!oak </code><br><br>
+<code>!oak howl</code><br><br>
 &bull; Iglesia Cristiana<br>
-<code>!oak </code><br><br>
+<code>!oak iglesiacristiana</code><br><br>
 &bull; Knox Park<br>
-<code>!oak </code><br><br>
+<code>!oak knoxpark</code><br><br>
 &bull; Lake Carroll Arch<br>
-<code>!oak </code><br><br>
+<code>!oak lakecarrollarch</code><br><br>
 &bull; Oak Grove Baptist Church<br>
-<code>!oak </code><br><br>
+<code>!oak oakgrovebaptistchurch</code> or <code>!oak oakgrove</code><br><br>
 &bull; Oil Park<br>
-<code>!oak </code><br><br>
+<code>!oak oilpark</code><br><br>
 &bull; Recreation Center Park<br>
-<code>!oak </code><br><br>
+<code>!oak recreationcenter</code><br><br>
 &bull; Safari Park<br>
-<code>!oak </code><br><br>
+<code>!oak safaripark</code><br><br>
 &bull; Shay Hill Park Gazebo<br>
-<code>!oak </code><br><br>
+<code>!oak shayhillpark</code><br><br>
 &bull; Spirit Wolf<br>
-<code>!oak </code><br><br>
+<code>!oak spiritwolf</code><br><br>
 &bull; St. Matthew at the Lake<br>
-<code>!oak </code><br><br>
+<code>!oak stmatthewsatthelake</code> or <code>!oak stmatthews</code> or <code>!oak mjs</code><br><br>
 &bull; Stripling Chapel<br>
-<code>!oak </code><br><br>
+<code>!oak striplingchapel</code><br><br>
 &bull; Tanner Medical Center Med Library<br>
-<code>!oak </code><br><br>
+<code>!oak tannermedicalcentermedlibrary</code> or <code>!oak tanner</code><br><br>
 &bull; The Observatory At The University Of West Georgia<br>
-<code>!oak </code><br><br>
+<code>!oak theobservatoryattheuniversityofwestgeorgia</code> or <code>!oak observatory</code><br><br>
 &bull; The Other Flower Table<br>
-<code>!oak </code><br><br>
+<code>!oak theotherflowerytable</code> or <code>!oak otherflowerytable</code><br><br>
 &bull; Trojan Stadium<br>
-<code>!oak </code><br><br>
+<code>!oak trojanstadium</code><br><br>
 &bull; Universal Faith Deliverance Church<br>
-<code>!oak </code><br><br>
+<code>!oak universalfaithdeliverence</code><br><br>
 &bull; Veterans Magnolia Memorial<br>
-<code>!oak </code><br><br>
+<code>!oak veteransmagnoliamemorial</code> or <code>!oak vets</code><br><br>
 &bull; Welcome Hill Baptist Church<br>
-<code>!oak </code><br><br>
+<code>!oak welcomehillbaptistchurch</code> or <code>!oak welcomehill</code><br><br>
 &bull; West Georgia Tech<br>
-<code>!oak </code><br><br>
+<code>!oak westgeorgiatech</code><br><br>
 &bull; Wolf Plaza<br>
-<code>!oak </code><br><br>
+<code>!oak wolfplaza</code><br><br>
 &bull; World Of Life Church<br>
-<code>!oak </code><br><br>
+<code>!oak worldoflifechurch</code> or <code>!oak worldoflife</code><br><br>
