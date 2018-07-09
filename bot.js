@@ -27,7 +27,7 @@ client.on("message", message => {
     console.error(err);
   }
   try {
-    let commandFile = require(`./iv-search-strings/${command}.js`);
+    let commandFile = require(`./searchstrings/${command}.js`);
     commandFile.run(client, message, args);
   } catch (err) {
     console.error(err);
